@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Carousel</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Open+Sans" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="model.css">
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<div class="col-md-8 col-center">
+			<h2>Footballer quotes</h2>
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>   
+				<div class="carousel-inner">
+					<div class="item active">
+						<div class="img-box"><img src="/CR7.jpg" alt=""></div>
+						<p class="testimonial">Talent isn't everything. You can have it from the cradle, but it is necessary to learn the trade to be the best.</p>
+						<p class="overview"><b>Cristiano Ronaldo</b>, Al-Nassr</p>
+					</div>
+					<div class="item">
+						<div class="img-box"><img src="/Messi.jpg" alt=""></div>
+						<p class="testimonial">You can overcome anything, if and only if, you can something enough.</p>
+						<p class="overview"><b>Lionel Messi</b>, Inter Miami</p>
+					</div>
+					<div class="item">
+						<div class="img-box"><img src="/pele.jpg" alt=""></div>
+						<p class="testimonial">Success is no accident. It is hard work, Persevarence, learning, studying, sacrifice and most of all, love of what you are doing.</p>
+						<p class="overview"><b>Pele</b>, Former footballer</p>
+					</div>
+				</div>
+				<a class="carousel-control left" href="#myCarousel" data-slide="prev">
+					<i class="fa fa-angle-left"></i>
+				</a>
+				<a class="carousel-control right" href="#myCarousel" data-slide="next">
+					<i class="fa fa-angle-right"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>                                		
